@@ -35,3 +35,4 @@ PLATFORMS
 DEPENDENCIES
   rake
   tanker!
+  vagrant
