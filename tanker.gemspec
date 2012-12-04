@@ -19,6 +19,10 @@ Gem::Specification.new do |s|
   # s.add_dependency "thor", "> 0.14"
 
   s.add_development_dependency "bundler", ">= 1.0.0"
+  s.add_development_dependency "rspec-core"
+  s.add_development_dependency "rake", "~>10.0.0"
+  s.add_development_dependency "rspec-expectations"
+  s.add_development_dependency "rspec-mocks"
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
